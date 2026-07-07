@@ -1,0 +1,130 @@
+[0m21:04:53.235370 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A7ADB88D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A00336490>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A00275610>]}
+
+
+============================== 21:04:53.235370 | b7dc0805-6bef-4330-8387-330746521c72 ==============================
+[0m21:04:53.235370 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m21:04:53.235370 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\kiran\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt init', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:05:13.702934 [debug] [MainThread]: Starter project path: C:\Users\kiran\Documents\Programming\Projects\Brazalian_E_Commerce\venv\Lib\site-packages\dbt\include\starter_project
+[0m21:05:13.766895 [info ] [MainThread]: Setting up your profile.
+[0m21:08:14.137391 [info ] [MainThread]: Profile dbt_datamodels written to C:\Users\kiran\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m21:08:14.143072 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m21:08:14.145058 [info ] [MainThread]: dbt version: 1.12.0-b3
+[0m21:08:14.145058 [info ] [MainThread]: python version: 3.11.4
+[0m21:08:14.146071 [info ] [MainThread]: python path: C:\Users\kiran\Documents\Programming\Projects\Brazalian_E_Commerce\venv\Scripts\python.exe
+[0m21:08:14.146071 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m21:08:14.190871 [info ] [MainThread]: Using profiles dir at C:\Users\kiran\.dbt
+[0m21:08:14.190871 [info ] [MainThread]: Using profiles.yml file at C:\Users\kiran\.dbt\profiles.yml
+[0m21:08:14.191879 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\kiran\Documents\Programming\Projects\Brazalian_E_Commerce\dbt\dbt_datamodels\dbt_project.yml
+[0m21:08:14.194047 [info ] [MainThread]: adapter type: postgres
+[0m21:08:14.195056 [info ] [MainThread]: adapter version: 1.10.2
+[0m21:08:14.295915 [info ] [MainThread]: Configuration:
+[0m21:08:14.297047 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m21:08:14.298059 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m21:08:14.298059 [info ] [MainThread]: Required dependencies:
+[0m21:08:14.299565 [debug] [MainThread]: Executing "git --help"
+[0m21:08:14.337576 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m21:08:14.337576 [debug] [MainThread]: STDERR: "b''"
+[0m21:08:14.338574 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m21:08:14.339578 [info ] [MainThread]: Connection:
+[0m21:08:14.340590 [info ] [MainThread]:   host: localhost
+[0m21:08:14.340590 [info ] [MainThread]:   port: 5432
+[0m21:08:14.341605 [info ] [MainThread]:   user: postgres
+[0m21:08:14.341605 [info ] [MainThread]:   database: Brazalian_E_Commerce_Pipeline
+[0m21:08:14.342611 [info ] [MainThread]:   schema: bronze
+[0m21:08:14.343784 [info ] [MainThread]:   connect_timeout: 10
+[0m21:08:14.343784 [info ] [MainThread]:   role: None
+[0m21:08:14.344791 [info ] [MainThread]:   search_path: None
+[0m21:08:14.345794 [info ] [MainThread]:   keepalives_idle: 0
+[0m21:08:14.345794 [info ] [MainThread]:   sslmode: None
+[0m21:08:14.347005 [info ] [MainThread]:   sslcert: None
+[0m21:08:14.347005 [info ] [MainThread]:   sslkey: None
+[0m21:08:14.348010 [info ] [MainThread]:   sslrootcert: None
+[0m21:08:14.348010 [info ] [MainThread]:   application_name: dbt
+[0m21:08:14.349530 [info ] [MainThread]:   retries: 1
+[0m21:08:14.349530 [info ] [MainThread]: Registered adapter: postgres=1.10.2
+[0m21:08:14.632646 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m21:08:16.978550 [debug] [MainThread]: Using postgres connection "debug"
+[0m21:08:16.979550 [debug] [MainThread]: On debug: select 1 as id
+[0m21:08:16.980057 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m21:08:17.149425 [debug] [MainThread]: SQL status: SELECT 1 in 0.170 seconds
+[0m21:08:17.151614 [debug] [MainThread]: On debug: Close
+[0m21:08:17.152624 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m21:08:17.152624 [info ] [MainThread]: [32mAll checks passed![0m
+[0m21:08:17.153630 [info ] [MainThread]: Your new dbt project "dbt_datamodels" was created!
+Initialized new project in C:\Users\kiran\Documents\Programming\Projects\Brazalian_E_Commerce\dbt\dbt_datamodels\dbt_datamodels
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:08:17.156624 [debug] [MainThread]: Command `dbt init` succeeded at 21:08:17.156624 after 204.02 seconds
+[0m21:08:17.157623 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m21:08:17.158631 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A77FCC350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A00275C10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017A00767890>]}
+[0m21:08:17.159630 [debug] [MainThread]: Flushing usage events
+[0m21:08:18.215219 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:19:13.482512 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D3886C1C90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D3885B1910>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D3885B1B90>]}
+
+
+============================== 21:19:13.495500 | ae60a54a-e826-4291-8a9a-15a60c08dff2 ==============================
+[0m21:19:13.495500 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m21:19:13.495500 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\kiran\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'indirect_selection': 'eager', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:19:13.514370 [info ] [MainThread]: dbt version: 1.12.0-b3
+[0m21:19:13.514370 [info ] [MainThread]: python version: 3.11.4
+[0m21:19:13.514370 [info ] [MainThread]: python path: C:\Users\kiran\Documents\Programming\Projects\Brazalian_E_Commerce\venv\Scripts\python.exe
+[0m21:19:13.514370 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m21:19:13.578290 [info ] [MainThread]: Using profiles dir at C:\Users\kiran\.dbt
+[0m21:19:13.578290 [info ] [MainThread]: Using profiles.yml file at C:\Users\kiran\.dbt\profiles.yml
+[0m21:19:13.578290 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\kiran\Documents\Programming\Projects\Brazalian_E_Commerce\dbt\dbt_project.yml
+[0m21:19:13.578290 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:19:13.578290 [debug] [MainThread]: Command `dbt debug` failed at 21:19:13.578290 after 0.19 seconds
+[0m21:19:13.578290 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D38037C350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D388714B10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002D388664450>]}
+[0m21:19:13.578290 [debug] [MainThread]: Flushing usage events
+[0m21:19:14.754436 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:20:30.633291 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5A8C26F10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5A8B71DD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5A8C26E50>]}
+
+
+============================== 21:20:30.638920 | f42af35c-61a1-41d2-9bec-46aa5500e534 ==============================
+[0m21:20:30.638920 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m21:20:30.639934 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'maximum_seed_size_mib': '1', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\kiran\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m21:20:30.668402 [info ] [MainThread]: dbt version: 1.12.0-b3
+[0m21:20:30.669402 [info ] [MainThread]: python version: 3.11.4
+[0m21:20:30.669402 [info ] [MainThread]: python path: C:\Users\kiran\Documents\Programming\Projects\Brazalian_E_Commerce\venv\Scripts\python.exe
+[0m21:20:30.670400 [info ] [MainThread]: os info: Windows-10-10.0.26200-SP0
+[0m21:20:30.733201 [info ] [MainThread]: Using profiles dir at C:\Users\kiran\.dbt
+[0m21:20:30.735202 [info ] [MainThread]: Using profiles.yml file at C:\Users\kiran\.dbt\profiles.yml
+[0m21:20:30.735202 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\kiran\Documents\Programming\Projects\Brazalian_E_Commerce\dbt\dbt_project.yml
+[0m21:20:30.736203 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m21:20:30.738363 [debug] [MainThread]: Command `dbt debug` failed at 21:20:30.738363 after 0.21 seconds
+[0m21:20:30.738363 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5A092C350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5A8D68090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001F5A8CD4F90>]}
+[0m21:20:30.739367 [debug] [MainThread]: Flushing usage events
+[0m21:20:31.998865 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:57:07.946732 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284D6E21FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284D6E11190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284D6F76F90>]}
+
+
+============================== 12:57:07.946732 | 60c0945d-7097-407e-a3ca-95e6c8fb8c0b ==============================
+[0m12:57:07.946732 [info ] [MainThread]: Running with dbt=1.12.0-b3
+[0m12:57:07.960364 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\kiran\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt run --select silver', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m12:57:07.960364 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\kiran\Documents\Programming\Projects\Brazalian_E_Commerce\dbt\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:57:07.960364 [debug] [MainThread]: Command `dbt run` failed at 12:57:07.960364 after 0.15 seconds
+[0m12:57:07.960364 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284D6EE3F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284D6EE3E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000284D6EE3CD0>]}
+[0m12:57:07.960364 [debug] [MainThread]: Flushing usage events
+[0m12:57:09.098799 [debug] [MainThread]: An error was encountered while trying to flush usage events
